@@ -37,7 +37,7 @@ int main(void) {
             case 4:
                 vy += 0.05; // Adjust the increment based on your preference
                 break;
-            case ' ': // Spacebar to toggle between J and B
+            case 6: // Spacebar to toggle between J and B
                 letter = !letter; // Toggle letter (0 for J, 1 for B)
                 break;
             case 5:
