@@ -32,6 +32,8 @@ int check_input(int delay) {
                 return 4; // Down arrow key
             case '\n':
                 return 5; // Return key
+            case ' ':
+                return 6; // Spacebar
             default:
                 return 0; // Other keys
         }
