@@ -57,8 +57,8 @@ int main(void) {
         // Wrap around the 8x8 grid using regular modulo (%) with casting to int
         x = fmod((x + LED_WIDTH), LED_WIDTH);
         y = fmod((y + LED_HEIGHT), LED_HEIGHT);
-
-        draw_dot(x, y);
+        
+        display_letter(letter, (int)x, (int)y); // Pass letter (0 for J, 1 for B) and position
         refresh();
 
         usleep(50000); // 50ms delay for smoother animation
