@@ -21,6 +21,8 @@ int main(void) {
     double vx = 0.0; // Initial x velocity (floating-point)
     double vy = 0.0; // Initial y velocity (floating-point)
 
+    int letter = 0; // Initial letter
+
     while (1) {
         int userInput = check_input(10); // Assume a delay of 10 milliseconds, adjust as needed
 
