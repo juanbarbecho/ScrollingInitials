@@ -1,5 +1,5 @@
-**Scrolling Letters Game
-**
+**Scrolling Letters Game**
+
 This is a terminal-based program that lets users control a scrolling letter ('J' or 'B') on an 8x8 grid using the arrow keys. The user can also toggle between the two letters using the spacebar.
 
 **How It Works**
